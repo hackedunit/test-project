@@ -1,5 +1,22 @@
 # Change Log
 
+## [0.1.0](https://github.com/hackedunit/test-project/tree/0.1.0) (2017-08-18)
+[Full Changelog](https://github.com/hackedunit/test-project/compare/0.0.2...0.1.0)
+
+**Fixed bugs:**
+
+- Bug issue [\#8](https://github.com/hackedunit/test-project/issues/8)
+
+**Closed issues:**
+
+- Add Dockerfile [\#12](https://github.com/hackedunit/test-project/issues/12)
+- Test issue 3 [\#5](https://github.com/hackedunit/test-project/issues/5)
+
+**Merged pull requests:**
+
+- Added Dockerfile closes \#12 [\#13](https://github.com/hackedunit/test-project/pull/13) ([hackedunit](https://github.com/hackedunit))
+- Fix bug closes \#8 [\#11](https://github.com/hackedunit/test-project/pull/11) ([hackedunit](https://github.com/hackedunit))
+
 ## [0.0.2](https://github.com/hackedunit/test-project/tree/0.0.2) (2017-08-18)
 [Full Changelog](https://github.com/hackedunit/test-project/compare/0.0.1...0.0.2)
 
