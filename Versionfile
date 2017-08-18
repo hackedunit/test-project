@@ -1,0 +1,40 @@
+automate_git #:actions => [:commit, :tag]
+
+version_file = './version.rb'
+
+# This block should return a valid Semantic object.
+# Example: Read a file and parse a verson from it.
+read_version do
+  # Should return a string representation of a semantic version
+  contents = File.read version_file
+  instance_eval(contents)
+end
+
+# This block takes the current and next version (strings).
+# Example: Rewriting a version file.
+write_version do |currentVersion, nextVersion|
+  # Write the new version to a file
+  contents = File.read version_file
+  contents = contents.sub(currentVersion.to_s, nextVersion.to_s)
+
+  File.open(version_file, 'w') do |file|
+    file.write contents
+  end
+end
+
+after :version do
+  # Run some command after any versioning action
+  # Example: Run a package script, trigger CI, etc.
+end
+
+after :patch do
+  # Run some command after patch
+end
+
+after :minor do
+  # Run some command after minor
+end
+
+after :major do
+  # Run some command after release
+end
