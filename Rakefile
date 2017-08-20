@@ -28,7 +28,7 @@ namespace :release do
   desc 'Update release notes at Github'
   task :release_notes do
     puts '[3/3] Updating release notes at Github...'
-    `bundle exec rake chandler:push`
+    `bundle exec chandler push`
   end
 end
 
