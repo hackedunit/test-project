@@ -1,5 +1,8 @@
 # Change Log
 
+## [0.2.0](https://github.com/hackedunit/test-project/tree/0.2.0) (2017-08-20)
+[Full Changelog](https://github.com/hackedunit/test-project/compare/0.1.1...0.2.0)
+
 ## [0.1.1](https://github.com/hackedunit/test-project/tree/0.1.1) (2017-08-20)
 [Full Changelog](https://github.com/hackedunit/test-project/compare/0.1.0...0.1.1)
 
